@@ -19,5 +19,14 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
+- (void)lev009 {
+    NSLog(@"lev009");
+}
 
+- (void)lev009_01 {
+    NSLog(@"lev009_01");
+}
+- (void)lev009_02 {
+    NSLog(@"lev009_02");
+}
 @end
