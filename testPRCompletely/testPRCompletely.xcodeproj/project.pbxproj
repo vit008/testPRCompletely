@@ -16,6 +16,7 @@
 		240B00E821D1520F00CEC1F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 240B00E721D1520F00CEC1F1 /* main.m */; };
 		240B00F221D1520F00CEC1F1 /* testPRCompletelyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 240B00F121D1520F00CEC1F1 /* testPRCompletelyTests.m */; };
 		240B00FD21D1520F00CEC1F1 /* testPRCompletelyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 240B00FC21D1520F00CEC1F1 /* testPRCompletelyUITests.m */; };
+		247F934321D15E52004D4F3B /* ViewControllerVit_Dev03.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247F934221D15E52004D4F3B /* ViewControllerVit_Dev03.swift */; };
 		24D4C82721D15C410037A42E /* ViewControllerVit_DevB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D4C82621D15C410037A42E /* ViewControllerVit_DevB.swift */; };
 		24D4C82821D15C410037A42E /* ViewControllerVit_DevB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D4C82621D15C410037A42E /* ViewControllerVit_DevB.swift */; };
 		24D4C82921D15C410037A42E /* ViewControllerVit_DevB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D4C82621D15C410037A42E /* ViewControllerVit_DevB.swift */; };
@@ -56,6 +57,7 @@
 		240B00F821D1520F00CEC1F1 /* testPRCompletelyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testPRCompletelyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		240B00FC21D1520F00CEC1F1 /* testPRCompletelyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testPRCompletelyUITests.m; sourceTree = "<group>"; };
 		240B00FE21D1520F00CEC1F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		247F934221D15E52004D4F3B /* ViewControllerVit_Dev03.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerVit_Dev03.swift; sourceTree = "<group>"; };
 		24D4C82321D15C400037A42E /* testPRCompletely-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "testPRCompletely-Bridging-Header.h"; sourceTree = "<group>"; };
 		24D4C82421D15C400037A42E /* testPRCompletelyTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "testPRCompletelyTests-Bridging-Header.h"; sourceTree = "<group>"; };
 		24D4C82521D15C400037A42E /* testPRCompletelyUITests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "testPRCompletelyUITests-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 				240B00D821D1520E00CEC1F1 /* ViewController.h */,
 				240B00D921D1520E00CEC1F1 /* ViewController.m */,
 				24D4C82621D15C410037A42E /* ViewControllerVit_DevB.swift */,
+				247F934221D15E52004D4F3B /* ViewControllerVit_Dev03.swift */,
 				240B00DB21D1520E00CEC1F1 /* Main.storyboard */,
 				240B00E121D1520F00CEC1F1 /* Assets.xcassets */,
 				240B00E321D1520F00CEC1F1 /* LaunchScreen.storyboard */,
@@ -282,6 +285,7 @@
 				24D4C82721D15C410037A42E /* ViewControllerVit_DevB.swift in Sources */,
 				240B00DA21D1520E00CEC1F1 /* ViewController.m in Sources */,
 				240B00D721D1520E00CEC1F1 /* AppDelegate.m in Sources */,
+				247F934321D15E52004D4F3B /* ViewControllerVit_Dev03.swift in Sources */,
 				240B00E821D1520F00CEC1F1 /* main.m in Sources */,
 				240B00E021D1520E00CEC1F1 /* testPRCompletely.xcdatamodeld in Sources */,
 			);
