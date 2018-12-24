@@ -26,4 +26,7 @@
 - (void)lev009_01 {
     NSLog(@"lev009_01");
 }
+- (void)lev009_02 {
+    NSLog(@"lev009_02");
+}
 @end
