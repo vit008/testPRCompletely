@@ -16,6 +16,9 @@
 		240B00E821D1520F00CEC1F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 240B00E721D1520F00CEC1F1 /* main.m */; };
 		240B00F221D1520F00CEC1F1 /* testPRCompletelyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 240B00F121D1520F00CEC1F1 /* testPRCompletelyTests.m */; };
 		240B00FD21D1520F00CEC1F1 /* testPRCompletelyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 240B00FC21D1520F00CEC1F1 /* testPRCompletelyUITests.m */; };
+		24D4C82721D15C410037A42E /* ViewControllerVit_DevB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D4C82621D15C410037A42E /* ViewControllerVit_DevB.swift */; };
+		24D4C82821D15C410037A42E /* ViewControllerVit_DevB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D4C82621D15C410037A42E /* ViewControllerVit_DevB.swift */; };
+		24D4C82921D15C410037A42E /* ViewControllerVit_DevB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D4C82621D15C410037A42E /* ViewControllerVit_DevB.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,10 @@
 		240B00F821D1520F00CEC1F1 /* testPRCompletelyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testPRCompletelyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		240B00FC21D1520F00CEC1F1 /* testPRCompletelyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testPRCompletelyUITests.m; sourceTree = "<group>"; };
 		240B00FE21D1520F00CEC1F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24D4C82321D15C400037A42E /* testPRCompletely-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "testPRCompletely-Bridging-Header.h"; sourceTree = "<group>"; };
+		24D4C82421D15C400037A42E /* testPRCompletelyTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "testPRCompletelyTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		24D4C82521D15C400037A42E /* testPRCompletelyUITests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "testPRCompletelyUITests-Bridging-Header.h"; sourceTree = "<group>"; };
+		24D4C82621D15C410037A42E /* ViewControllerVit_DevB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerVit_DevB.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,12 +114,16 @@
 				240B00D621D1520E00CEC1F1 /* AppDelegate.m */,
 				240B00D821D1520E00CEC1F1 /* ViewController.h */,
 				240B00D921D1520E00CEC1F1 /* ViewController.m */,
+				24D4C82621D15C410037A42E /* ViewControllerVit_DevB.swift */,
 				240B00DB21D1520E00CEC1F1 /* Main.storyboard */,
 				240B00E121D1520F00CEC1F1 /* Assets.xcassets */,
 				240B00E321D1520F00CEC1F1 /* LaunchScreen.storyboard */,
 				240B00E621D1520F00CEC1F1 /* Info.plist */,
 				240B00E721D1520F00CEC1F1 /* main.m */,
 				240B00DE21D1520E00CEC1F1 /* testPRCompletely.xcdatamodeld */,
+				24D4C82321D15C400037A42E /* testPRCompletely-Bridging-Header.h */,
+				24D4C82421D15C400037A42E /* testPRCompletelyTests-Bridging-Header.h */,
+				24D4C82521D15C400037A42E /* testPRCompletelyUITests-Bridging-Header.h */,
 			);
 			path = testPRCompletely;
 			sourceTree = "<group>";
@@ -202,13 +213,16 @@
 				TargetAttributes = {
 					240B00D121D1520E00CEC1F1 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 					240B00EC21D1520F00CEC1F1 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 						TestTargetID = 240B00D121D1520E00CEC1F1;
 					};
 					240B00F721D1520F00CEC1F1 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 						TestTargetID = 240B00D121D1520E00CEC1F1;
 					};
 				};
@@ -265,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24D4C82721D15C410037A42E /* ViewControllerVit_DevB.swift in Sources */,
 				240B00DA21D1520E00CEC1F1 /* ViewController.m in Sources */,
 				240B00D721D1520E00CEC1F1 /* AppDelegate.m in Sources */,
 				240B00E821D1520F00CEC1F1 /* main.m in Sources */,
@@ -277,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				240B00F221D1520F00CEC1F1 /* testPRCompletelyTests.m in Sources */,
+				24D4C82821D15C410037A42E /* ViewControllerVit_DevB.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +301,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				240B00FD21D1520F00CEC1F1 /* testPRCompletelyUITests.m in Sources */,
+				24D4C82921D15C410037A42E /* ViewControllerVit_DevB.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,6 +456,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = testPRCompletely/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -447,6 +465,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = qwe.testPRCompletely;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "testPRCompletely/testPRCompletely-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -455,6 +476,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = testPRCompletely/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -463,6 +485,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = qwe.testPRCompletely;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "testPRCompletely/testPRCompletely-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -470,7 +494,9 @@
 		240B010521D1520F00CEC1F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = testPRCompletelyTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -480,6 +506,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = qwe.testPRCompletelyTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "testPRCompletely/testPRCompletelyTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testPRCompletely.app/testPRCompletely";
 			};
@@ -488,7 +517,9 @@
 		240B010621D1520F00CEC1F1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = testPRCompletelyTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -498,6 +529,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = qwe.testPRCompletelyTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "testPRCompletely/testPRCompletelyTests-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testPRCompletely.app/testPRCompletely";
 			};
@@ -506,6 +539,8 @@
 		240B010821D1520F00CEC1F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = testPRCompletelyUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -515,6 +550,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = qwe.testPRCompletelyUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "testPRCompletely/testPRCompletelyUITests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = testPRCompletely;
 			};
@@ -523,6 +561,8 @@
 		240B010921D1520F00CEC1F1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = testPRCompletelyUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -532,6 +572,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = qwe.testPRCompletelyUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "testPRCompletely/testPRCompletelyUITests-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = testPRCompletely;
 			};
